@@ -16,4 +16,4 @@ Importe o repositório na Vercel com o preset **Other** — sem comando de build
 
 ## Links das aplicações
 
-Edite o objeto `LINKS` no topo de `main.js`.
+Edite o objeto `LINKS` no início do `<script type="module">` em `index.html`.

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DashMind — Plataformas de gestão & operação</title>
+  <meta name="description" content="Software web sob medida que transforma a operação de redes de lojas em dados, controle e decisão. Ponto Eletrônico, Nexo e Opina+." />
+  <meta name="theme-color" content="#0b0d1a" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="bg"></canvas>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+
+  <header class="nav">
+    <a href="#top" class="brand"><span class="dot"></span>DASHMIND</a>
+    <nav>
+      <a href="#solucoes">Soluções</a>
+      <a href="#plataforma">Plataforma</a>
+      <a href="#contato" class="btn btn-sm">Fale conosco</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow reveal">Plataformas de gestão &amp; operação</p>
+      <h1 class="reveal">
+        Inteligência<br />
+        <span class="grad">operacional.</span>
+      </h1>
+      <p class="lead reveal">
+        Software web sob medida que transforma a operação de redes de lojas em dados,
+        controle e decisão — do ponto do funcionário à voz do cliente.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#solucoes" class="btn">Conheça as soluções</a>
+        <a href="#contato" class="btn btn-ghost">Vamos conversar →</a>
+      </div>
+      <div class="chips reveal">
+        <span class="chip" style="--c: var(--ponto)">Ponto Eletrônico</span>
+        <span class="chip" style="--c: var(--nexo)">Nexo · Gestão</span>
+        <span class="chip" style="--c: var(--opina)">Opina+ · NPS</span>
+      </div>
+      <div class="scroll-hint"><span></span></div>
+    </section>
+
+    <section id="solucoes" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 · Visão geral</p>
+        <h2>Uma suíte para operar, gerir e ouvir.</h2>
+        <p class="muted">Cada solução resolve uma frente da operação — e todas falam a mesma língua: conectar dados dispersos a decisões claras, sem instalação e sem planilha.</p>
+      </div>
+
+      <div class="apps">
+        <article class="app reveal" style="--c: var(--ponto)">
+          <div class="app-top">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </div>
+            <span class="num">01</span>
+          </div>
+          <span class="tag">Jornada &amp; CLT</span>
+          <h3>Ponto Eletrônico</h3>
+          <p>Planeja a escala, cruza com as batidas reais do relógio e aponta cada irregularidade automaticamente, à luz da legislação trabalhista.</p>
+          <ul>
+            <li>11 tipos de alerta automático</li>
+            <li>Banco de horas &amp; absenteísmo</li>
+            <li>Integração com relógio RHiD</li>
+          </ul>
+          <a class="app-link" href="#" data-app="ponto">Acessar aplicação <span>→</span></a>
+        </article>
+
+        <article class="app reveal" style="--c: var(--nexo)">
+          <div class="app-top">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg>
+            </div>
+            <span class="num">02</span>
+          </div>
+          <span class="tag">Software completo</span>
+          <h3>Nexo</h3>
+          <p>A operação inteira da rede em um só lugar: financeiro, caixa, chamados, estoque, vendas, pessoas e comunicação — multi-empresa e isolado.</p>
+          <ul>
+            <li>Conferência de caixa &amp; contas</li>
+            <li>Chamados, estoque e fila de venda</li>
+            <li>RH, avaliações &amp; onboarding</li>
+          </ul>
+          <a class="app-link" href="#" data-app="nexo">Acessar aplicação <span>→</span></a>
+        </article>
+
+        <article class="app reveal" style="--c: var(--opina)">
+          <div class="app-top">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8M8 13h5"/></svg>
+            </div>
+            <span class="num">03</span>
+          </div>
+          <span class="tag">Satisfação &amp; NPS</span>
+          <h3>Opina+</h3>
+          <p>A voz do cliente em tempo real: pesquisa por QR Code respondida em menos de 2 minutos, com painéis, comparativos entre lojas e relatório em PDF.</p>
+          <ul>
+            <li>Um QR Code por loja</li>
+            <li>Dashboard &amp; NPS em tempo real</li>
+            <li>Painel white-label</li>
+          </ul>
+          <a class="app-link" href="#" data-app="opina">Acessar aplicação <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="plataforma" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 · Plataforma</p>
+        <h2>Construída para redes de lojas.</h2>
+      </div>
+      <div class="pillars">
+        <div class="pillar reveal"><span class="big" data-count="100" data-suffix="%">0</span><h4>Web</h4><p>Acesso pelo navegador, sem instalação em nenhuma máquina.</p></div>
+        <div class="pillar reveal"><span class="big">∞</span><h4>Multi-loja</h4><p>Dados isolados por empresa e visão consolidada da rede.</p></div>
+        <div class="pillar reveal"><span class="big live"><i></i>ao vivo</span><h4>Tempo real</h4><p>Indicadores que atualizam sozinhos, sem recarregar a página.</p></div>
+        <div class="pillar reveal"><span class="big">⟡</span><h4>Sob medida</h4><p>Perfis de acesso, regras e formulários configuráveis.</p></div>
+      </div>
+
+      <div class="marquee reveal" aria-hidden="true">
+        <div class="track">
+          <span>Escalas</span><span>Alertas automáticos</span><span>Banco de horas</span><span>Conferência de caixa</span><span>Chamados</span><span>Estoque</span><span>Fila de venda</span><span>Avaliações</span><span>QR Code</span><span>NPS</span><span>Relatório PDF</span><span>White-label</span>
+          <span>Escalas</span><span>Alertas automáticos</span><span>Banco de horas</span><span>Conferência de caixa</span><span>Chamados</span><span>Estoque</span><span>Fila de venda</span><span>Avaliações</span><span>QR Code</span><span>NPS</span><span>Relatório PDF</span><span>White-label</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section cta reveal">
+      <p class="eyebrow">Vamos conversar</p>
+      <h2>Uma plataforma para<br /><span class="grad">cada frente da operação.</span></h2>
+      <p class="muted">Ponto Eletrônico, Nexo e Opina+ funcionam sozinhos ou juntos. Conte qual é o seu desafio — jornada, gestão ou experiência do cliente — e desenhamos o caminho.</p>
+      <a href="#" class="btn" data-contact>Fale com a DashMind</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="brand"><span class="dot"></span>DashMind</span>
+    <span>© <span id="year">2026</span> DashMind · Todos os direitos reservados</span>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
